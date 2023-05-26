@@ -36,15 +36,15 @@ export default [
     title: "COVID DETECTION USING X-RAY IMAGES",
     desc: "ML Model to predict COVID-19 using frontal chest X-Ray images.",
     tech: "Machine Learning, Deep Learning, Flask",
-    demo: "https://github.com/sagnikghoshcr7/Breast-Cancer-Prediction/blob/master/model.ipynb",
-    source: "https://github.com/sagnikghoshcr7/Breast-Cancer-Prediction",
+    demo: "https://github.com/pateldivyam26/COVID-Detection-using-X-Ray-Images/blob/main/B20EE082_B20AI014_REPORT.pdf",
+    source: "https://github.com/pateldivyam26/COVID-Detection-using-X-Ray-Images",
   },
   {
     img: flight,
     title: "FLIGHT PRICE PREDICTION",
     desc: "Model to predict the flight prices using various machine learning algorithms.",
     tech: "ML, DL, Flask, HTML, CSS, JS",
-    demo: "https://github.com/sagnikghoshcr7/Car-Price-Prediction/blob/master/Predicting%20used%20car%20prices.ipynb",
+    demo: "https://flight-price-prediction-h2m5.onrender.com/",
     source: "https://github.com/pateldivyam26/Flight-Price-Prediction",
   },
   {
@@ -52,7 +52,7 @@ export default [
     title: "PORTFOLIO WEBSITE",
     desc: "Portfolio Website showing Education, Skills, Projects & Achievements.",
     tech: "React.js, Node.js",
-    demo: "https://pateldivyam26.github.io/portfolio-dp/",
+    demo: "https://portfolio-divyam.netlify.app/",
     source: "https://github.com/pateldivyam26/portfolio-dp",
   },
 ]
