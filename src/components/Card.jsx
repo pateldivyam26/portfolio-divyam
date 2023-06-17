@@ -39,8 +39,8 @@ export default function ProjectCard({
 
       <Card.Body>
         <Card.Title className="title">{title}</Card.Title>
-        <Card.Text>{desc}</Card.Text>
-        <Card.Text><b>{tech}</b></Card.Text>
+        <Card.Text className='text-secondary'>{desc}</Card.Text>
+        <Card.Text className='text-secondary'><b>{tech}</b></Card.Text>
         <div className="btn-grp">
           <Button href={demo} target="_blank">
             Live Demo
