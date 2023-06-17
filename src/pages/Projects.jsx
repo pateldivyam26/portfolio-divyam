@@ -5,7 +5,7 @@ import { useState } from "react"
 import { connect } from "react-redux"
 
 const Projects = ({ projects }) => {
-  const [count, setCount] = useState(8)
+  const [count] = useState(8)
   const [items, setItems] = useState([])
 
   useEffect(() => {
@@ -17,17 +17,13 @@ const Projects = ({ projects }) => {
       <div className="cards">
         {items && items.map((card, index) => <Card card={card} key={index} />)}
       </div>
-
-      <div className="d-flex justify-content-center">
-        {count < projects.length && (
-          <div
-            className="btn btn-primary mt-5 btn-lg"
-            onClick={() => setCount(count + 4)}
-          >
-            See more
-          </div>
-        )}
+      <br></br>
+      <div class="wrapper">
+        <button className='btn btn-primary' onClick={() => window.open("https://github.com/pateldivyam26?tab=repositories")} >
+          More Projects
+        </button>
       </div>
+      
     </Section>
   )
 }

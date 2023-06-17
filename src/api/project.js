@@ -26,15 +26,15 @@ export default [
   {
     img: hardware,
     title: "HARDWARE IMPLEMENTATION OF ML ALGORITHMS",
-    desc: "Weather Prediction and Gesture Recognition on the Arduino Nano 33 BLE Sense board.",
+    desc: "Weather Prediction and Gesture Recognition using Arduino Nano 33 BLE Sense board.",
     tech: "Machine Learning, Arduino",
-    demo: "https://drive.google.com/file/d/1HxxrSk0Q1MwTzj_iJM1IMZxGmenIZ1pj/view?usp=sharing",
+    demo: "https://drive.google.com/drive/folders/1gHYSi0GpTIeFmLJjXQxEtxyGZ6lBlqRi?usp=sharing",
     source: "https://github.com/pateldivyam26/Hardware-Implementation-of-ML-Algorithms",
   },
   {
     img: covid,
     title: "COVID DETECTION USING X-RAY IMAGES",
-    desc: "ML Model to predict COVID-19 using frontal chest X-Ray images.",
+    desc: "Model to predict COVID-19 using frontal chest X-Ray images.",
     tech: "Machine Learning, Deep Learning, Flask",
     demo: "https://github.com/pateldivyam26/COVID-Detection-using-X-Ray-Images/blob/main/B20EE082_B20AI014_REPORT.pdf",
     source: "https://github.com/pateldivyam26/COVID-Detection-using-X-Ray-Images",
@@ -50,7 +50,7 @@ export default [
   {
     img: portfolio,
     title: "PORTFOLIO WEBSITE",
-    desc: "Portfolio Website showing Education, Skills, Projects & Achievements.",
+    desc: "Portfolio website showcasing my work and skills.",
     tech: "React.js, Node.js",
     demo: "https://portfolio-divyam.netlify.app/",
     source: "https://github.com/pateldivyam26/portfolio-dp",
