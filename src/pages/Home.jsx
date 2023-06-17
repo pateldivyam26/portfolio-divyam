@@ -1,6 +1,5 @@
 import React from "react";
 import Section from "../components/Section";
-import ResumePDF from "../assets/Divyam_Patel.pdf";
 import Img from "../assets/DP.jpeg";
 import { FaGithub, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 
@@ -59,7 +58,7 @@ export default function Home() {
             <button
               className="btn btn-primary btn-custom py-2 px-5 CV-Button"
               type="submit"
-              onClick={() => window.open(ResumePDF)}
+              onClick={() => window.open("https://drive.google.com/drive/folders/125Y3UzIthiOLpxDxLkc2-m7DOKUOGqlR?usp=sharing")}
             >
               Resume
             </button>
