@@ -46,11 +46,9 @@ body {
   background: var(--gradient) !important;
 }
 .CV-Button {
-  background: #000000 !important;
+  background: linear-gradient(90deg, #bd5d38, #ff6e36)  !important;
 }
-.CV-Button:hover {
-  background: #4f565c !important;
-}
+
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
@@ -197,6 +195,10 @@ section.resume-section .resume-section-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1em;
+}
+
+.wrapper {
+  text-align: center;
 }
 
 @media (max-width: 480px) {
