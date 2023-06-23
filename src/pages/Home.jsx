@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "../components/Section";
 import Img from "../assets/DP.jpeg";
-import { FaGithub, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTwitter, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 const SocialIcon = ({ href, icon }) => {
   return (
@@ -33,6 +33,10 @@ export default function Home() {
     {
       href: "https://www.instagram.com/divyam_patel26",
       icon: <FaInstagram />,
+    },
+    {
+      href: "mailto:pateldivyam26@gmail.com",
+      icon: <FaEnvelope />,
     },
   ];
 
