@@ -65,6 +65,14 @@ export default function Achievements() {
               HackerRank Problem Solving (Intermediate)
             </a>
           </div>
+          <div>
+            <span className="fa-li p-2">
+              <i className="fas fa-trophy text-warning"><RiFilePaper2Fill /></i>
+            </span>
+            <a href="https://drive.google.com/file/d/1jf_yZYGN7QMixFy9_qSjSUytF2u8ECW4/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              Goldman Sachs Software Engineering Virtual Experience Program
+            </a>
+          </div>
           {/* <div>
             <span className="fa-li p-2">
               <i className="fas fa-trophy text-warning"><RiFilePaper2Fill /></i>
