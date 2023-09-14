@@ -38,7 +38,7 @@ export default function ProjectCard({
       </div>
 
       <Card.Body>
-        <Card.Title className="title">{title}</Card.Title>
+        <Card.Title className="title"><center>{title}</center></Card.Title>
         <Card.Text className='text-secondary'>{desc}</Card.Text>
         <Card.Text className='text-secondary'><b>{tech}</b></Card.Text>
         <div className="btn-grp">

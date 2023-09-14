@@ -4,7 +4,7 @@ import crypto from "../assets/projects/crypto.png"
 import hardware from "../assets/projects/hardware.png"
 import covid from "../assets/projects/covid.png"
 import flight from "../assets/projects/flight.png"
-
+import esp from "../assets/projects/esp.png"
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
   {
@@ -16,20 +16,20 @@ export default [
     source: "https://github.com/pateldivyam26/Chat-App",
   },
   {
+    img: esp,
+    title: "ELECTIVES SELECTION PORTAL",
+    desc: "Web portal designed to facilitate the process of selecting program electives for the students of IITJ.",
+    tech: "React.js",
+    demo: "https://electives-selection-portal.netlify.app/",
+    source: "https://github.com/pateldivyam26/Electives-Selection-Portal",
+  },
+  {
     img: crypto,
     title: "CRYPTO TRACKER",
-    desc: "Built with Next.js, providing real-time information about the top cryptocurrencies based on market capitalization.",
+    desc: "Built with Next.js, providing real-time information about top cryptocurrencies based on market capitalization.",
     tech: "Next.js, React.js",
     demo: "https://crypto-tracker-dp.vercel.app/",
     source: "https://github.com/pateldivyam26/Crypto-Tracker",
-  },
-  {
-    img: hardware,
-    title: "HARDWARE IMPLEMENTATION OF ML ALGORITHMS",
-    desc: "Weather Prediction and Gesture Recognition using Arduino Nano 33 BLE Sense board.",
-    tech: "Machine Learning, Arduino",
-    demo: "https://drive.google.com/drive/folders/1gHYSi0GpTIeFmLJjXQxEtxyGZ6lBlqRi?usp=sharing",
-    source: "https://github.com/pateldivyam26/Hardware-Implementation-of-ML-Algorithms",
   },
   {
     img: covid,
@@ -54,5 +54,13 @@ export default [
     tech: "React.js, Node.js",
     demo: "https://portfolio-divyam.netlify.app/",
     source: "https://github.com/pateldivyam26/portfolio-dp",
+  },
+  {
+    img: hardware,
+    title: "HARDWARE IMPLEMENTATION OF ML ALGORITHMS",
+    desc: "Weather Prediction and Gesture Recognition using Arduino Nano 33 BLE Sense board.",
+    tech: "Machine Learning, Arduino",
+    demo: "https://drive.google.com/drive/folders/1gHYSi0GpTIeFmLJjXQxEtxyGZ6lBlqRi?usp=sharing",
+    source: "https://github.com/pateldivyam26/Hardware-Implementation-of-ML-Algorithms",
   },
 ]
