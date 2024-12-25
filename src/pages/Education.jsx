@@ -11,7 +11,7 @@ export default function Education() {
           <div><b>Courses: </b>Data Structures & Algorithms, Introduction to Computer Science, Pattern Recognition & Machine Learning, Probability, Statistics & Stochastic Processes, Signals & Systems, Digital Logic & Design, Embedded Systems, Computer Architecture</div>
         </div>
         <div className="flex-shrink-0">
-          <span className="text-primary">Dec 2020 - Present</span>
+          <span className="text-primary">Dec 2020 - May 2024</span>
         </div>
       </div>
 

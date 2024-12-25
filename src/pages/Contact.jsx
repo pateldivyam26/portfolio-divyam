@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React from 'react'
 import { useState } from 'react'
-import { FaPhoneAlt } from 'react-icons/fa'
+import { FaLinkedin, FaPhoneAlt } from 'react-icons/fa'
 import { FaRegEnvelope } from 'react-icons/fa'
 import { ImLocation } from 'react-icons/im'
 import Section from '../components/Section'
@@ -92,7 +92,7 @@ const Contact = () => {
                   <span>
                     <ImLocation />
                   </span>
-                  <p>IIT Jodhpur, Rajasthan, India</p>
+                  <p>Ganesh Gali, Rohida, Rajasthan, India</p>
                 </div>
               </div>
 
@@ -117,10 +117,20 @@ const Contact = () => {
                   </a></p>
                 </div>
               </div>
+              <div className='col-sm-6'>
+                <div className='item'>
+                  <span>
+                    <FaLinkedin />
+                  </span>
+                  <p><a href='https://linkedin.com/in/divyam-patel-265303201/' style={{ color: 'inherit', textDecoration: 'none' }}>
+                  divyam-patel
+                  </a></p>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className='contact-map'>
+          {/* <div className='contact-map'>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14285.456741967007!2d73.1154577!3d26.4762165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6c9a5a9b08db22e!2sIndian%20Institute%20of%20Technology%20Jodhpur!5e0!3m2!1sen!2sin!4v1657119337086!5m2!1sen!2sin" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
               frameBorder='0'
               allowFullScreen=''
@@ -128,7 +138,7 @@ const Contact = () => {
               title='Contact Me'
               tabIndex='0'
             ></iframe>
-          </div>
+          </div> */}
         </div>
       </div>
 

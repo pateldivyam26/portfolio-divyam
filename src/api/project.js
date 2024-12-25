@@ -5,6 +5,7 @@ import hardware from "../assets/projects/hardware.png"
 import covid from "../assets/projects/covid.png"
 import flight from "../assets/projects/flight.png"
 import esp from "../assets/projects/esp.png"
+import splitwise from "../assets/projects/splitwise.png"
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
   {
@@ -14,6 +15,22 @@ export default [
     tech: "MongoDB, Express.io, React.js, Node.js",
     demo: "https://react-chat-app-backend-r7fy.onrender.com/",
     source: "https://github.com/pateldivyam26/Chat-App",
+  },
+  {
+    img: hardware,
+    title: "HARDWARE IMPLEMENTATION OF ML ALGORITHMS",
+    desc: "Weather Prediction and Gesture Recognition using Arduino Nano 33 BLE Sense board.",
+    tech: "Machine Learning, Arduino",
+    demo: "https://drive.google.com/drive/folders/1gHYSi0GpTIeFmLJjXQxEtxyGZ6lBlqRi?usp=sharing",
+    source: "https://github.com/pateldivyam26/Hardware-Implementation-of-ML-Algorithms",
+  },
+  {
+    img: splitwise,
+    title: "SPLITWISE CLONE",
+    desc: "A MEAN stack application for managing shared expenses within groups.",
+    tech: "MongoDB, Express.io, AngularJS, Node.js",
+    demo: "https://github.com/pateldivyam26/Splitwise",
+    source: "https://github.com/pateldivyam26/Splitwise",
   },
   {
     img: esp,
@@ -54,13 +71,5 @@ export default [
     tech: "React.js, Node.js",
     demo: "https://portfolio-divyam.netlify.app/",
     source: "https://github.com/pateldivyam26/portfolio-dp",
-  },
-  {
-    img: hardware,
-    title: "HARDWARE IMPLEMENTATION OF ML ALGORITHMS",
-    desc: "Weather Prediction and Gesture Recognition using Arduino Nano 33 BLE Sense board.",
-    tech: "Machine Learning, Arduino",
-    demo: "https://drive.google.com/drive/folders/1gHYSi0GpTIeFmLJjXQxEtxyGZ6lBlqRi?usp=sharing",
-    source: "https://github.com/pateldivyam26/Hardware-Implementation-of-ML-Algorithms",
   },
 ]

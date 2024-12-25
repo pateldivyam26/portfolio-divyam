@@ -56,7 +56,8 @@ export default function Home() {
             </span>
           </div>
           <p className="lead mb-4" >
-            I'm a final year student at IIT Jodhpur doing B.Tech in Electrical Engineering. I'm a motivated, hard-working, and work-oriented person who finds joy in new challenges and keeps an eye out for them every day. I have the ability to work well as a team member and exceptional work ethic.
+            {/* I'm a final year student at IIT Jodhpur doing B.Tech in Electrical Engineering. I'm a motivated, hard-working, and work-oriented person who finds joy in new challenges and keeps an eye out for them every day. I have the ability to work well as a team member and exceptional work ethic. */}
+            I am a B.Tech graduate in Electrical Engineering from the Indian Institute of Technology Jodhpur. I am a motivated, hard-working, and work-oriented person with a passion for tackling new challenges daily. My strong teamwork skills and exceptional work ethic are complemented by my proficiency in full stack development, blockchain development, data science, and data analytics.
           </p>
           <div className="btn-group mb-5">
             <button

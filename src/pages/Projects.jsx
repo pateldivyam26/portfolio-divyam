@@ -23,7 +23,6 @@ const Projects = ({ projects }) => {
           More Projects
         </button>
       </div>
-      
     </Section>
   )
 }

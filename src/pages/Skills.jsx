@@ -21,6 +21,12 @@ import {
   SiPython,
   SiReact,
   SiTensorflow,
+  SiAngularjs,
+  SiEthereum,
+  SiSolidity,
+  SiBitcoin,
+  SiWeb3Dotjs,
+  SiBlockchaindotcom
 } from "react-icons/si";
 import "../css/Skill.css";
 
@@ -40,12 +46,18 @@ const Skills = () => {
     { icon: <SiFlutter />, name: "Flutter", color: "#02569B" },
     { icon: <SiReact />, name: "React", color: "#61DAFB" },
     { icon: <SiNodedotjs />, name: "NodeJS", color: "#339933" },
+    { icon: <SiPostman />, name: "Postman", color: "#FF6C37" },
+    { icon: <SiAngularjs />, name: "Postman", color: "#DD0031" },
+    { icon: <SiBlockchaindotcom />, name: "Blockchain", color: "#FFCF00" },
+    { icon: <SiEthereum />, name: "Ethereum", color: "#3C3C3D" },
+    { icon: <SiSolidity />, name: "Solidity", color: "#363636" },
+    { icon: <SiBitcoin />, name: "Bitcoin", color: "#F7931A" },
+    { icon: <SiWeb3Dotjs />, name: "Web3.js", color: "#F16822" },
     { icon: <SiMongodb />, name: "MongoDB", color: "#47A248" },
     { icon: <SiPostgresql />, name: "PostgreSQL", color: "#336791" },
     { icon: <SiFirebase />, name: "Firebase", color: "#FFCA28" },
     { icon: <SiDocker />, name: "Docker", color: "#2496ED" },
     { icon: <SiAndroidstudio />, name: "Android Studio", color: "#3DDC84" },
-    { icon: <SiPostman />, name: "Postman", color: "#FF6C37" },
   ];
 
   return (

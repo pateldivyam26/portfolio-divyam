@@ -13,6 +13,14 @@ export default function Achievements() {
             <span className="fa-li p-2">
               <i className="fas fa-trophy text-warning"><BsTrophy /></i>
             </span>
+            <a href="https://drive.google.com/file/d/15-xiPrXqgbYFJqsaU4JUyLuEBfiyoWno/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              Reached Gold Level at WorldQuant Brain by simulating over 100+ hedge fund trading models
+            </a>
+          </div>
+          <div>
+            <span className="fa-li p-2">
+              <i className="fas fa-trophy text-warning"><BsTrophy /></i>
+            </span>
             <a href="https://drive.google.com/file/d/1SwNIPj__uJam9oUVQIfi4hsouFXarGWX/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               1<sup>st</sup> Prize in Kaggle Knight Prometeo'23 - Techfest, IIT Jodhpur
             </a>
